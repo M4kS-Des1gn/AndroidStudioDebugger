@@ -81,5 +81,5 @@ These are expected outcomes derived from the source code, not a report of comple
 
 ## Repository screenshots
 
-![Calculator interface](docs/screenshots/calculator.png)
-![Calculation result](docs/screenshots/addition.png)
+<img src="docs/screenshots/calculator.png" alt="Calculator interface" width="250">
+<img src="docs/screenshots/addition.png" alt="Calculation result" width="250">
