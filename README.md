@@ -4,9 +4,7 @@ A simple Android calculator built with Java and XML layouts in Android Studio. E
 
 ## Screenshot
 
-[View the supplied calculator screenshot](https://chatgpt.com/library?file_id=libfile_5b68dacfe44c8191b976f8412ea1caff&account_id=personal)
-
-This is the reference screenshot supplied for the assignment. It shows two number inputs and purple ADD, SUB, DIV and MUL buttons. A new screenshot of the running implementation could not be captured in this session.
+<img src="docs/screenshots/calculator.png" alt="Calculator interface" width="250"><img src="docs/screenshots/addition.png" alt="Calculation result" width="250">
 
 ## Features
 
@@ -78,8 +76,3 @@ The debug APK is generated at `app/build/outputs/apk/debug/app-debug.apk` after 
 | An empty input | Any operation | Invalid number error |
 
 These are expected outcomes derived from the source code, not a report of completed emulator tests.
-
-## Repository screenshots
-
-<img src="docs/screenshots/calculator.png" alt="Calculator interface" width="250"><img src="docs/screenshots/addition.png" alt="Calculation result" width="250">
-
