@@ -82,5 +82,6 @@ These are expected outcomes derived from the source code, not a report of comple
 ## Repository screenshots
 
 ```markdown
-// TODO: add images in docs/screenshots/ 
+![Calculator interface](docs/screenshots/calculator.png)
+![Calculation result](docs/screenshots/addition.png)
 ```
