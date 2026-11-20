@@ -79,11 +79,8 @@ The debug APK is generated at `app/build/outputs/apk/debug/app-debug.apk` after 
 
 These are expected outcomes derived from the source code, not a report of completed emulator tests.
 
-## Add repository screenshots
-
-For screenshots that render directly on GitHub, capture the running app and save the images in `docs/screenshots/`, then replace the reference link above with relative image links, for example:
+## Repository screenshots
 
 ```markdown
-![Calculator interface](docs/screenshots/calculator.png)
-![Addition result](docs/screenshots/addition.png)
+// TODO: add images in docs/screenshots/ 
 ```
