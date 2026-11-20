@@ -81,7 +81,5 @@ These are expected outcomes derived from the source code, not a report of comple
 
 ## Repository screenshots
 
-```markdown
 ![Calculator interface](docs/screenshots/calculator.png)
 ![Calculation result](docs/screenshots/addition.png)
-```
