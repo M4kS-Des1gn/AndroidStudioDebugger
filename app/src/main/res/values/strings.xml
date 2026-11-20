@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AndroidStudioDebugger</string>
+    <string name="first_number">Prvo število</string>
+    <string name="second_number">Drugo število</string>
+    <string name="add">ADD</string>
+    <string name="sub">SUB</string>
+    <string name="div">DIV</string>
+    <string name="mul">MUL</string>
+    <string name="invalid_number">Vnesi veljavno število.</string>
+    <string name="division_by_zero">Deljenje z ničlo ni dovoljeno.</string>
+    <string name="result_value">Rezultat: %1$s</string>
+    <style name="CalculatorButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginHorizontal">4dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="backgroundTint">#6950A1</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:insetTop">4dp</item>
+        <item name="android:insetBottom">4dp</item>
+    </style>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFF7FF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="4dp">
+        <EditText
+            android:id="@+id/firstNumber"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:inputType="numberDecimal|numberSigned"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:hint="@string/first_number"
+            android:textColor="#211A2C"
+            android:backgroundTint="#817689" />
+        <EditText
+            android:id="@+id/secondNumber"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:inputType="numberDecimal|numberSigned"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:hint="@string/second_number"
+            android:textColor="#211A2C"
+            android:backgroundTint="#817689" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonAdd"
+                style="@style/CalculatorButton"
+                android:text="@string/add" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonSub"
+                style="@style/CalculatorButton"
+                android:text="@string/sub" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonDiv"
+                style="@style/CalculatorButton"
+                android:text="@string/div" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonMul"
+                style="@style/CalculatorButton"
+                android:text="@string/mul" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:textSize="22sp"
+            android:textColor="#211A2C"
+            android:accessibilityLiveRegion="polite" />
+    </LinearLayout>
+</ScrollView>
